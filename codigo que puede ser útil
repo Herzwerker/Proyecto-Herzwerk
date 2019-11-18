@@ -1,0 +1,131 @@
+.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+class="gallery"> <img src="/home/herzwerker/Proyecto Herzwerk/imagenes/Eisbrecher.jpeg">
+			<img src="/home/herzwerker/Proyecto Herzwerk/imagenes/Heimataerde.jpg">
+			<img src="/home/herzwerker/Proyecto Herzwerk/imagenes/Megaherz.jpeg">
+
+
+
+			-webkit-animation-name: example; 
+  -webkit-animation-duration: 4s; 
+  animation-name: example;
+  animation-duration: 4s;
+
+
+  
+.Megaherz { background-color:#0A122A;  
+	border: 0.5px solid #151515; margin-bottom:1px ; 
+	padding:5px; float: left; width:14%;
+}
+/*mouse over link*/.Megaherz:hover {
+  background-color: #819FF7;
+}
+
+
+.Eisbrecher {background-color:#0A122A;  
+	border: 0.5px solid #151515; margin-bottom:0.5px; 
+	padding:5px; float: left; width:14%;
+}
+/*mouse over link*/.Eisbrecher:hover {
+  background-color: #819FF7;
+}
+
+
+.Letzte-Instanz {background-color:#0A122A;  
+	border: 0.5px solid #151515; margin-bottom:0.5px; 
+	padding:5px; float: left; width:14%;
+
+}
+
+/*mouse over link*/.Letzte-Instanz:hover {
+  background-color: #819FF7;}
+
+
+.Unzucht {background-color:#0A122A;  
+	border: 0.5px solid #151515; margin-bottom:0.5px; 
+	padding:5px; float: left; width:14%;
+}
+/*mouse over link*/.Unzucht:hover {
+  background-color: #819FF7;
+}
+
+.Heimataerde { background-color:#0A122A;  
+	border: 0.5px solid #151515; margin-bottom:0.5px; 
+	padding:5px; float: left; width:14%; 
+
+}
+
+/*mouse over link*/.Heimataerde:hover {
+  background-color: #819FF7;
+}
+
+.Sobre-mi { background-color :#0A122A;
+	border: 0.5px solid #151515; margin-bottom:0.5px;
+	padding: 5px; float: left; width: 14%
+
+ }
+
+/*mouse over link*/.Sobre-mi:hover {
+	background-color: #819FF7;
+}
+
+
+.Block-5 {width: 95%; margin: none;
+  position:absolute; 
+  top: 100px; left: 2%;
+    display: block; z-index:-1; 
+  background-color: white; 
+    border:10px; box-shadow:  5px 5px 2.5px #2E2E2E; 
+    min-height: 150px; 
+    box-sizing: border-box;
+    margin: auto;
+border-radius: 7.5px
+}
+
+.Discs { padding-left: 15%; padding-bottom: 5%;
+
+}
+
+.Discs img { width: 29% }
+
+.Lyrics { float: right; padding-right: 40%;
+
+}
+
+.Lyrics ul {
+  font-weight:600; font-family: tahoma;  list-style-type: none;
+  margin: 0;
+  padding: 10%; width: 100%; 
+}
+
+.Lyrics a { text-decoration: none; color: #2E2E2E; 
+
+
+}
+
+.Lyrics li { width: 200%; border: 1px; 
+ 
+}
+.Lyrics li:hover { background-color: white; border-radius: 5px; box-shadow:  2px 2px 5px #819ff7
+}
+
+.Lyrics ul li { padding: 1% }

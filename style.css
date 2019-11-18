@@ -1,0 +1,290 @@
+body {
+  background-color: #374a73;
+}
+.content-1 {
+  min-height: 850px;
+}
+nav {
+  width: 100%;
+  margin: none;
+  background-color: white;
+  padding-top: none;
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  display: block;
+  border: 10px;
+  box-shadow: 10px 10px 5px #2e2e2e;
+  box-sizing: border-box;
+  min-height: 40px;
+  margin: auto;
+}
+
+.main-menu {
+  float: left;
+}
+
+.TopNavbar a {
+  text-decoration: none;
+  color: #f2f2f2;
+}
+
+.TopNavbar ul {
+  text-align: center;
+  font-family: Tahoma;
+  list-style: none;
+  padding: 0%;
+  text-decoration: none;
+  font-weight: 600;
+  letter-spacing: 2%;
+}
+
+.TopNavbar li {
+  background-color: #0a122a;
+  border: 1px solid #151515;
+  padding: 0.25%;
+  float: left;
+  width: 14%;
+}
+
+.TopNavbar li:hover {
+  background-color: #819ff7;
+}
+
+.TopNavbar ul li {
+  padding: 0.25%;
+}
+
+.herzwerker-logo {
+  float: left;
+  width: 6%;
+  height: 4%;
+  margin-top: 0px;
+}
+
+.TopNavbar li {
+  float: left;
+}
+
+@media only screen and (max-width: 600px) {
+  .TopNavbar li {
+    width: 100%;
+    padding: 0.15%;
+    font-size: 100%;
+  }
+
+  .TopNavbar ul {
+    font-weight: 300;
+    letter-spacing: 1%;
+  }
+
+  .herzwerker-logo {
+    margin-top: 0px;
+    position: center;
+    width: 45px;
+    height: 30px;
+    padding-left: 45%;
+  }
+
+  .Block-1 {
+    position: fixed;
+    bottom: 10;
+    top: 50vh;
+    max-height: 100%;
+    padding: 5%;
+    font-size: 50%;
+    max-width: 95%;
+  }
+  .Block-2 {
+    position: fixed;
+    bottom: 10;
+    font-size: 50%;
+    max-width: 94%;
+  }
+  .Block-4 {
+    position: fixed;
+    bottom: 30;
+    font-size: 50%;
+    max-width: 94%;
+  }
+}
+
+.Block-1 {
+  position: absolute;
+  top: 15vh;
+  width: 100%;
+  margin: none;
+  left: 0px;
+  display: block;
+  z-index: -1;
+  background-color: white;
+  border: 10px;
+  box-shadow: 5px 5px 2.5px #2e2e2e;
+  min-height: 20%;
+  box-sizing: border-box;
+  margin: auto;
+  font-family: Helvetica;
+}
+
+.Block-1 a:hover,
+a:active {
+  background-color: #819ff7;
+}
+
+.Block-1 a {
+  text-decoration: none;
+  color: black;
+}
+
+.Block-2 {
+  position: absolute;
+  top: 50%;
+  display: block;
+  z-index: -1;
+  background-color: white;
+  left: 0%;
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  border: 10px;
+  box-shadow: 5px 5px 2.5px #2e2e2e;
+  min-height: 20%;
+  margin: auto;
+}
+
+.Block-3 {
+  position: absolute;
+  top: 400px;
+  display: block;
+  z-index: -1;
+  background-color: white;
+  left: 0px;
+  right: 0px;
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  border: 10px;
+  box-shadow: 5px 5px 2.5px #2e2e2e;
+  min-height: 325px;
+  margin: auto;
+}
+
+.Block-3 img:hover {
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+
+.Block-3 ul {
+  list-style: none;
+  padding: 0.5px;
+  text-decoration: none;
+}
+
+.Block-3 li {
+  float: left;
+  padding: 5px;
+}
+
+.Block-4 {
+  position: absolute;
+  top: 95%;
+  display: block;
+  z-index: -1;
+  background-color: white;
+  left: 0px;
+  right: 0px;
+  width: 100%;
+  max-width: 100%;
+  min-width: 40%;
+  box-sizing: border-box;
+  border: 10px;
+  box-shadow: 5px 5px 2.5px #2e2e2e;
+  min-height: 20%;
+  margin: auto;
+}
+
+.Block-5 {
+  width: 94%;
+  margin: none;
+  position: absolute;
+  top: 100px;
+  left: 2%;
+  display: block;
+  z-index: -1;
+  background-color: white;
+  border: 10px;
+  box-shadow: 5px 5px 2.5px #2e2e2e;
+  min-height: 150px;
+  box-sizing: border-box;
+  margin: auto;
+  border-radius: 7.5px;
+}
+
+.Discs {
+  padding-left: 5%;
+  padding-bottom: 5%;
+}
+
+.Discs img {
+  width: 29%;
+  box-shadow: 5px 5px 2.5px #2e2e2e;
+}
+
+.Lyrics {
+  position: static;
+  float: right;
+  padding-right: 25%;
+  padding-top: -50%;
+}
+
+.Lyrics ul {
+  font-weight: 600;
+  font-family: tahoma;
+  list-style-type: none;
+  margin: 0;
+  padding: 0%;
+  width: 100%;
+}
+
+.Lyrics a {
+  text-decoration: none;
+  color: #2e2e2e;
+}
+
+.Lyrics li {
+  width: 100%;
+  border: 1px;
+}
+.Lyrics li:hover {
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px #819ff7;
+}
+
+.Lyrics ul li {
+  padding: 1%;
+}
+
+table {
+  width: 100%;
+}
+
+.row-1 {
+  width: 50%;
+  padding-left: 2%;
+}
+.row-2 {
+  width: 50%;
+  padding-left: 2%;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  color: black;
+  text-align: center;
+  opacity: 0.8;
+}
