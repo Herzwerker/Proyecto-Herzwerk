@@ -288,3 +288,11 @@ table {
   text-align: center;
   opacity: 0.8;
 }
+h1 {
+  padding-left: 35%;
+}
+
+.Block-6 {
+  padding-left: 33%;
+  border-radius: 2px;
+}
