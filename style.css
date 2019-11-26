@@ -161,11 +161,10 @@ a:active {
   left: 0px;
   right: 0px;
   width: 100%;
-  max-width: 100%;
   box-sizing: border-box;
   border: 10px;
   box-shadow: 5px 5px 2.5px #2e2e2e;
-  min-height: 325px;
+  min-height: 200px;
   margin: auto;
 }
 
@@ -303,37 +302,61 @@ h1 {
   position: absolute;
   background-color: #374a73;
   margin-top: 7px;
-  margin-left: right: none;
+  margin-left: right, none;
   padding-bottom: 3%;
   padding-top: 1%;
   z-index: -1;
-
 }
+
 .Bottom-space a {
   text-decoration: none;
   font-weight: 600;
   color: #2e2e2e;
   background-color: white;
   border-radius: 5px;
-  box-shadow: 2px 2px 5px; 
-  
+  box-shadow: 2px 2px 5px;
 }
-.Bottom-space a:hover{  background-color: white;
+
+.Bottom-space a:hover {
+  background-color: white;
   border-radius: 5px;
   box-shadow: 2px 2px 5px #819ff7;
-
 }
 
-.DHMW-table {padding-left: 25%;
+.DHMW-table {
+  padding-left: 25%;
   width: 100%;
-
 }
 
-.row-2-DHMW {font-weight: 600;
+.row-2-DHMW {
+  font-weight: 600;
   font-family: tahoma;
   list-style-type: none;
   padding-left: 10%;
-  
 }
 
+.Herzwerk-old img {
+  width: 70%;
+  box-shadow: 5px 5px 2.5px #2e2e2e;
+}
 
+.Polarstern img {
+  width: 70%;
+  box-shadow: 5px 5px 2.5px #2e2e2e;
+}
+
+.FAQ {
+  padding-left: 3%;
+}
+
+.sobre-mi-title {
+  padding-left: 45%;
+}
+
+.sobre-mi {
+  padding-left: 2%;
+}
+
+.old-pages {
+  padding-left: 14%;
+}
