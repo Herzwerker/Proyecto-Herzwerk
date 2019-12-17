@@ -66,49 +66,6 @@ nav {
   float: left;
 }
 
-@media only screen and (max-width: 600px) {
-  .TopNavbar li {
-    width: 100%;
-    padding: 0.15%;
-    font-size: 100%;
-  }
-
-  .TopNavbar ul {
-    font-weight: 300;
-    letter-spacing: 1%;
-  }
-
-  .herzwerker-logo {
-    margin-top: 0px;
-    position: center;
-    width: 45px;
-    height: 30px;
-    padding-left: 45%;
-  }
-
-  .Block-1 {
-    position: fixed;
-    bottom: 10;
-    top: 50vh;
-    max-height: 100%;
-    padding: 5%;
-    font-size: 50%;
-    max-width: 95%;
-  }
-  .Block-2 {
-    position: fixed;
-    bottom: 10;
-    font-size: 50%;
-    max-width: 94%;
-  }
-  .Block-4 {
-    position: fixed;
-    bottom: 30;
-    font-size: 50%;
-    max-width: 94%;
-  }
-}
-
 .Block-1 {
   position: absolute;
   top: 15vh;
@@ -138,7 +95,7 @@ a:active {
 
 .Block-2 {
   position: absolute;
-  top: 50%;
+  top: 0%;
   display: block;
   z-index: -1;
   background-color: white;
@@ -161,10 +118,10 @@ a:active {
   left: 0px;
   right: 0px;
   width: 100%;
-  box-sizing: border-box;
+  box-sizing: content-box;
   border: 10px;
   box-shadow: 5px 5px 2.5px #2e2e2e;
-  min-height: 200px;
+  min-height: fit-content;
   margin: auto;
 }
 
@@ -186,7 +143,7 @@ a:active {
 
 .Block-4 {
   position: absolute;
-  top: 95%;
+  top: 112vh;
   display: block;
   z-index: -1;
   background-color: white;
@@ -363,4 +320,101 @@ h1 {
 
 .Introductory-video {
   padding-left: 20%;
+}
+
+/* Galaxy S5 and others */
+@media only screen and (max-width: 910px) {
+  .TopNavbar li {
+    width: 100%;
+    padding: 0.15%;
+    font-size: 100%;
+  }
+
+  .TopNavbar ul {
+    font-weight: 300;
+    letter-spacing: 1%;
+  }
+
+  .herzwerker-logo {
+    margin-top: 0px;
+    position: center;
+    width: 45px;
+    height: 30px;
+    padding-left: 45%;
+  }
+
+  .Block-1 {
+    position: relative;
+    top: 190px;
+    max-height: max-content;
+    bottom: 30;
+    padding: 5%;
+    font-size: 75%;
+    max-width: 95%;
+  }
+
+  .Introductory-video {
+    position: relative;
+  }
+
+  iframe {
+    width: 85%;
+    height: 60%;
+  }
+
+  .Block-2 {
+    position: relative;
+    font-size: 75%;
+    min-width: 94%;
+  }
+  .Block-3 {
+    position: absolute;
+    top: 195px;
+    max-width: 93%;
+    box-sizing: border-box;
+    height: fit-content;
+  }
+
+  .Block-4 {
+    position: relative;
+    top: 190px;
+    min-height: 200px;
+    font-size: 75%;
+    max-width: 95%;
+  }
+
+  h1 {
+    padding-left: 0;
+  }
+  .Block-5 {
+    position: absolute;
+    top: 200px;
+    min-height: 250px;
+  }
+  .Bottom-space {
+    display: block;
+    position: absolute;
+    background-color: #374a73;
+    margin-top: 3px;
+    margin-left: right, none;
+    bottom: -10%;
+    padding-bottom: 6%;
+    padding-top: 0%;
+    z-index: -1;
+  }
+
+  .Bottom-space a {
+    text-decoration: none;
+    font-weight: 600;
+    color: #2e2e2e;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px;
+  }
+
+  .Bottom-space a:hover {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #819ff7;
+  }
 }
