@@ -1,9 +1,7 @@
 body {
   background-color: #374a73;
 }
-.content-1 {
-  min-height: 850px;
-}
+
 nav {
   width: 100%;
   margin: none;
@@ -66,6 +64,22 @@ nav {
   float: left;
 }
 
+.Block-Intro {
+  width: 100%;
+  position: absolute;
+  top: 15vh;
+  margin: none;
+  left: 0px;
+  display: block;
+  z-index: -1;
+  background-color: white;
+  border: 10px;
+  box-shadow: 5px 5px 2.5px #2e2e2e;
+  min-height: 150px;
+  box-sizing: border-box;
+  font-family: Helvetica;
+}
+
 .Block-1 {
   position: absolute;
   top: 15vh;
@@ -79,7 +93,6 @@ nav {
   box-shadow: 5px 5px 2.5px #2e2e2e;
   min-height: 20%;
   box-sizing: border-box;
-  margin: auto;
   font-family: Helvetica;
 }
 
@@ -342,6 +355,36 @@ h1 {
     height: 30px;
     padding-left: 45%;
   }
+  .Block-Intro {
+    position: absolute;
+    top: 190px;
+    max-height: max-content;
+    bottom: 30;
+    padding-left: 5%;
+    padding-bottom: 2%;
+    right: 5%;
+    left: 2.5%;
+    font-size: 75%;
+    width: 95%;
+  }
+
+  .Introductory-video {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 25px;
+    height: 0;
+    overflow: hidden;
+  }
+
+  .Introductory-video iframe,
+  .Introductory-video object,
+  .Introductory-video embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 95%;
+    height: 100%;
+  }
 
   .Block-1 {
     position: relative;
@@ -351,15 +394,6 @@ h1 {
     padding: 5%;
     font-size: 75%;
     max-width: 95%;
-  }
-
-  .Introductory-video {
-    position: relative;
-  }
-
-  iframe {
-    width: 85%;
-    height: 60%;
   }
 
   .Block-2 {
@@ -376,10 +410,11 @@ h1 {
   }
 
   .Block-4 {
-    position: relative;
-    top: 190px;
-    min-height: 200px;
+    position: absolute;
+    top: 120vh;
+    max-height: max-content;
     font-size: 75%;
+    padding: 5%;
     max-width: 95%;
   }
 

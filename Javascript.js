@@ -1,35 +1,29 @@
-const zumachen = [
-  {
-    id: 1,
-    text: "Take out trash",
-    isCompleted: true
-  },
-  {
-    id: 2,
-    text: "Meeting with boss",
-    isCompleted: true
-  },
-  {
-    id: 3,
-    text: "Dentist appointment",
-    isCompleted: false
-  }
-];
-// convert this into JSON
+const block4 = document.querySelector(".Block-4");
+block4.addEventListener("click", runEvent);
 
-//const zumachenJSON = JSON.stringify(zumachen);
-//console.log(zumachenJSON);
+//Mouseup und Hallo Welt
 
-//for (let i = 0; i < zumachen.length; i++) {
-// console.log(zumachen[i].text);
-//}
+function runEvent(e) {
+  block4.innerHTML = `<h1 style="color:red"> Hallo Welt </h1>`;
+  console.log(`Tipo de evento: ${e.type}`);
+}
 
-//for (let zumach of zumachen) {
-//  console.log(zumach.id);
-//}
+// //Change styling
 
-//High order array methods
+// //
 
-zumachen.forEach(function(zumach) {
-  console.log(zumach.text);
-});
+// // document.querySelector(
+// //   ".Block-4"
+// // ).innerHTML = `<span style="color:red"> Hallo Welt </span>`;
+
+// //Change menu styling
+
+// document.getElementById("main-menu").style.background = "fff";
+
+// let links = document.links;
+
+// let linksArr = Array.from(links);
+
+// linksArr.forEach(function(links) {
+//   console.log(links.getAttribute("href"));
+// })
